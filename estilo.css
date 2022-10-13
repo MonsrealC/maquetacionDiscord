@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+/* border: 1px red solid; */
+}
+.contenedor1{
+padding: 15px;
+height: 300px;
+}
+.parrafo1{
+  width: 300px;
+  border: 1px #333 solid;
+  float: left;
+  background-color: #cccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.parrafo2{
+  width: 200px;
+  border: 1px #333 solid;
+  float:right;
+  background-color: #cccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.parrafo3{
+width: 300px;
+border: 1px red solid;
+clear: both;
+}
+.logo{
+  width: 100px;
+  float: left;
+}
+.menu{
+  width: 940px;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu a{
+  color: #404eed;
+  text-decoration: none;
+  margin-right: 50px;
+  padding: 5px;
+  display: inline-block;
+}
+.menu a:hover{
+  text-decoration: underline;
+}
+.menu a:nth-child(7){
+  margin-right: 0px;
+}
+.btn_blanco{
+  background-color: #404eed;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+}
+.contenedor_imagina{
+  clear: both;
+  background-color: #404eed;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor_imagina h1{
+  font-size: 40px;
+  padding: 20px;
+}
+.contenedor_imagina p{
+  width: 600px;
+  margin: auto;
+}
+.botones{
+  padding: 15px;
+}
+.btn_blanco2{
+  background-color: white;
+  color: #404eed;
+text-decoration: none;
+padding: 10px 30px;
+border-radius: 40px;
+display: inline-block;
+}
+.btn_negro{
+  background-color: #333;
+  color:#fff;
+text-decoration: none;
+padding: 10px 30px;
+border-radius: 40px;
+display: inline-block;
+}
+.foto2{
+  /* border: 1px red solid; */
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.info{
+  width: 550px;
+  /* border: 1px red solid; */
+  display: inline-block;
+  vertical-align: middle;
+}
+.info h2{
+  font-size: 40px;
+  line-height: 40px;
+}
+.info p{
+  line-height: 40px;
+}
+.titulo1{
+  font-size: 40px;
+  line-height: 50px;
+}
+.parrafos{
+  font-size: 19px;
+  color: black;
+  line-height: 33px;
+}
+.info2{
+  width: 100%;
+  background-color: beige;
+  clear: both;
+}
+.contenedor_donde{
+  width: 400px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.foto3{
+  width: 500px;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+.gris{
+  background-color: #ccc;
+}
+.contenedor_tecnologia{
+  text-align: center;
+}
+.tipografias2{
+  font-family: Impact;
+  font-size: 40px;
+}
+.btn_morado{
+  background-color: #404eed;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+}
+.contenedor_final{
+  background-color: rgb(19, 7, 7);
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.morado{
+  color: purple;
+}
+.contenedorlogo_abajo{
+width: 100%;
+}
+.logoabajo{
+  width: 100px;
+  vertical-align: middle;
+}
+
